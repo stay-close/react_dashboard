@@ -1,0 +1,42 @@
+.wedget {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+.wedgetLeft,
+.wedgetRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+.wedgetRight .icon {
+  align-self: flex-end;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+.wedgetLeft .title {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: rgb(183, 177, 177);
+  font-weight: 600;
+}
+.wedgetLeft .count {
+  font-size: 30px;
+  font-weight: bold;
+  color: #7451f8;
+}
+.wedgetLeft .link {
+  font-size: 12px;
+  border-bottom: 1px solid #7451f8;
+  width: max-content;
+  color: #999;
+  cursor: pointer;
+}
+.wedgetRight .persent {
+  font-weight: 300;
+  color: #999;
+}

@@ -1,0 +1,49 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  padding: 0 20px;
+}
+.searchBar {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(221, 216, 216);
+}
+.searchBar input {
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+}
+.navRight nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.navRight nav ul li:first-child {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: rgb(161, 155, 155);
+}
+.navRight nav ul li {
+  position: relative;
+}
+.icon {
+  cursor: pointer;
+  color: #7451f8;
+}
+.navRight nav ul span.badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: red;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}

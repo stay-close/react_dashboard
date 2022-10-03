@@ -1,0 +1,53 @@
+.featured {
+  flex: 4;
+  padding: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.featuredTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topTitle {
+  font-size: 20px;
+  color: #999;
+  font-weight: 500;
+}
+.topIcon {
+  color: #999;
+  cursor: pointer;
+}
+.featuredCenter {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+.featuredBottom {
+  text-align: center;
+}
+.totalEarningTitle {
+  font-size: 20px;
+  color: #999;
+  margin: 20px 0;
+}
+.totlaEarningCount {
+  color: #7451f8;
+  margin-bottom: 20px;
+}
+.dec {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 20px;
+}
+.earningHistory {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #999;
+}
